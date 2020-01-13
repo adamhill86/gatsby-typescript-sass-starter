@@ -21,7 +21,9 @@
     "allowUnreachableCode": false,
     "noUnusedLocals": true
   },
-  "include": [
-    "src"
+  "exclude": [
+    "node_modules/*",
+    "public/*",
+    "cache/*"
   ]
 }

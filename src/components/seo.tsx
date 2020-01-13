@@ -28,7 +28,7 @@ const SEO: React.FC<Props> = ({ description = '', lang = 'en', meta = [], title 
           }
         }
       }
-    `
+    `,
   );
 
   const metaDescription = description || site.siteMetadata.description;
