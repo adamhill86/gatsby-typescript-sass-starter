@@ -20,7 +20,7 @@
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "lint": "eslint --fix --config ./.eslintrc.js --ext .ts,.tsx ./",
+    "lint": "eslint --fix --config ./.eslintrc.js --ext .ts,.tsx,.js ./",
     "serve": "gatsby serve",
     "start": "npm run develop",
     "test": "jest"
